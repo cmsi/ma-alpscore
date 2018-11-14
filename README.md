@@ -17,7 +17,7 @@ The ALPS Core libraries aim to provide a set of well tested, robust, and standar
 
 ### Target distributions and architectures
 
-* stretch (amd64)
+* Debian stretch (amd64)
 
 ### For users
 
@@ -49,3 +49,11 @@ The ALPS Core libraries aim to provide a set of well tested, robust, and standar
   tar zcvf alpscore_$VERSION.orig.tar.gz alpscore_$VERSION
   rm -rf v$VERSION.tar.gz* alpscore_$VERSION
   ```
+  
+### Links
+  
+* [MateriApps LIVE! Home Page](http://cmsi.github.io/MateriAppsLive/)
+* [MateriApps LIVE! Forum](MateriApps LIVE! Forum) (Users Forum)
+* [MateriApps LIVE! Wiki](MateriApps LIVE! Wiki) (Documents and FAQ)
+* [MateriApps LIVE!](MateriApps LIVE!) on MateriApps
+
