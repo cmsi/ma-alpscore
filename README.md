@@ -1,8 +1,8 @@
-# MateriApp Debian Package: ALPSCore
+# MateriApp Debian Package: ALPS Core
 
-### ALPSCore: Applications and Libraries for Physics Simulations Core libraries
+### ALPS Core: Applications and Libraries for Physics Simulations Core libraries
 
-The ALPS Core libraries aim to provide a set of well tested, robust, and standardized components for numerical simulations of condensed matter systems, in particular systems with strongly correlated electrons. They consist of a set of components that are used in tate of the art high performance codes. The ALPSCore libraries are a spinoff of the ALPS libraries available from alps.comp-phys.org.
+The ALPS Core libraries aim to provide a set of well tested, robust, and standardized components for numerical simulations of condensed matter systems, in particular systems with strongly correlated electrons. They consist of a set of components that are used in tate of the art high performance codes. The ALPS Core libraries are a spinoff of the ALPS libraries available from alps.comp-phys.org.
 
 ### Version
 
@@ -21,17 +21,17 @@ The ALPS Core libraries aim to provide a set of well tested, robust, and standar
 
 ### For users
 
-* How to install ALPSCore
+* How to install ALPS Core
 
   1. Add MateriApps apt repository to Debian [[English](https://github.com/cmsi/MateriAppsLive/wiki/UsingMateriAppsInDebian-en)][[日本語](https://github.com/cmsi/MateriAppsLive/wiki/UsingMateriAppsInDebian)]
 
-  2. Install ALPSCore runtime
+  2. Install ALPS Core runtime
 
      ```
      suto apt-get install libalpscore
      ```
 
-  3. For developing software using ALPSCore
+  3. For developing software using ALPS Core
 
      ```
      suto apt-get install libalpscore-dev alpscore-doc alpscore-tutorials
