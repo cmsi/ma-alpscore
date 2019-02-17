@@ -7,6 +7,10 @@ if [ -f "$DATA_DIR/${PACKAGE}_${VERSION_BASE}.orig.tar.gz" ]; then :; else
   exit 127
 fi
 
+sudo apt update
+sudo apt -y upgrade
+sudo apt -y install mpi-default-dev libboost-all-dev libhdf5-serial-dev libeigen3-dev doxygen graphviz
+
 rm -rf $BUILD_DIR
 set -x
 
