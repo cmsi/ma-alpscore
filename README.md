@@ -8,7 +8,7 @@ The ALPS Core libraries aim to provide a set of well tested, robust, and standar
 
 ### Version
 
-* 2.2.0-1 (01 Nov 2018)
+* 2.3.0-rc.1-1 (17 Feb 2019)
 
 ### Provided packages
 
@@ -19,7 +19,7 @@ The ALPS Core libraries aim to provide a set of well tested, robust, and standar
 
 ### Target distributions and architectures
 
-* Debian stretch (amd64)
+* Debian stretch (amd64, i386)
 
 ### For users
 
@@ -36,20 +36,27 @@ The ALPS Core libraries aim to provide a set of well tested, robust, and standar
   3. For developing software using ALPS Core
 
      ```
-     suto apt-get install libalpscore-dev alpscore-doc alpscore-tutorials
+     suto apt-get install libalpscore-dev
      ```
 
-### For developers
+  3. Documentation and tutorial
+
+     ```
+     suto apt-get install alpscore-doc alpscore-tutorials
+     ```
+
+### For Debian package maintainers
 
 * How to prepare original source tarball
 
   ```
   VERSION=x.x.x
-  wget https://github.com/ALPSCore/ALPSCore/archive/v$VERSION.tar.gz
-  tar zxvf v$VERSION.tar.gz
-  mv -f ALPSCore-$VERSION alpscore_$VERSION
+  VERSION_ARCHIVE=$(echo $VERSION | sed 's/~/-/g')
+  wget https://github.com/ALPSCore/ALPSCore/archive/v$VERSION_ARCHIVE.tar.gz
+  tar zxvf v$VERSION_ARCHIVE.tar.gz
+  mv -f ALPSCore-$VERSION_ARCHIVE alpscore_$VERSION
   tar zcvf alpscore_$VERSION.orig.tar.gz alpscore_$VERSION
-  rm -rf v$VERSION.tar.gz* alpscore_$VERSION
+  rm -rf v$VERSION_ARCHIVE.tar.gz* alpscore_$VERSION
   ```
   
 ### Links
