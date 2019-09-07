@@ -2,7 +2,7 @@ Source: alpscore
 Section: scientific
 Priority: extra
 Maintainer: Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
-Build-Depends: debhelper (>= 8.0.0), cmake, mpi-default-dev, libboost-all-dev, libhdf5-serial-dev | libhdf5-dev, libeigen3-dev (>= 1:3.3.5), doxygen, graphviz
+Build-Depends: debhelper (>= 8.0.0), cmake, mpi-default-dev, libboost-all-dev, libhdf5-dev, libeigen3-dev, doxygen, graphviz
 Standards-Version: 3.9.3
 Homepage: https://alpscore.org
 
